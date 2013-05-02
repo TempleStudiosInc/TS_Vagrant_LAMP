@@ -76,3 +76,6 @@ $ vagrant destroy
 The phpMyAdmin URL: `http://phpdev.local/phpmyadmin` or `http://localhost:8080/phpmyadmin`.
 
 ***Note:*** The MySQL username is `root` and the root password is `password`. To change the default, edit `manifests/db.pp`.
+
+
+Based on the excellent work from [Michael Cheng](https://github.com/miccheng/vagrant-lamp-centos63/).
