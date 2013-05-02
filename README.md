@@ -39,7 +39,17 @@ Update your host operating system's hosts file with the following entry:
 192.168.56.60 phpdev.local
 ```
 
-In windows, the file is located at C:/Windows/System32/Drivers/etc/hosts.
+In windows, the file is located at:
+
+```bash
+C:/Windows/System32/Drivers/etc/hosts
+```
+
+In Linux, the file is located at:
+
+```bash
+/etc/hosts
+```
 
 Now, you can reach the webroot with `http://phpdev.local` or `http://localhost:8080`.
 
